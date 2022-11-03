@@ -1,4 +1,6 @@
 
+<img src='https://cranlogs.r-pkg.org/badges/cropcircles'/><img src='https://cranlogs.r-pkg.org/badges/grand-total/cropcircles'/><img src='https://www.r-pkg.org/badges/version/cropcircles'/>
+
 # cropcircles <img src='dev/images/hex.png' align="right" height="240" />
 
 Crop an image into a circle with a transparent background.
@@ -10,6 +12,14 @@ with `ggimage`, `ggpath`, or include in tables using e.g. `gt`,
 intends to make it as simplified as possible.
 
 ## Installation
+
+From CRAN
+
+``` r
+install.packages("cropcircles")
+```
+
+Or Git
 
 ``` r
 devtools::install_github("doehm/cropcircles")
@@ -28,19 +38,16 @@ library(dplyr)
 library(ggimage)
 
 # breaking bad images
-images <- c(
-  "https://openpsychometrics.org/tests/characters/test-resources/pics/BB/1.jpg",
-  "https://openpsychometrics.org/tests/characters/test-resources/pics/BB/3.jpg", 
-  "https://openpsychometrics.org/tests/characters/test-resources/pics/BB/9.jpg", 
-  "https://openpsychometrics.org/tests/characters/test-resources/pics/BB/8.jpg")
+x <- c(1, 3, 9, 8)
+images <- glue::glue("https://openpsychometrics.org/tests/characters/test-resources/pics/BB/{x}.jpg")
 
 df <- tibble(y = 1:4, images = images) |> 
-  mutate(images_cropped = circle_crop(images))
+  mutate(images_circle = circle_crop(images))
 
 df |> 
   ggplot() +
   geom_image(aes(1.5, y, image = images), size = 0.15) +
-  geom_image(aes(3.5, y, image = images_cropped), size = 0.15) +
+  geom_image(aes(3.5, y, image = images_circle), size = 0.15) +
   xlim(0, 5) +
   ylim(0, 5) +
   coord_fixed()
@@ -50,3 +57,5 @@ df |>
 
 The function can take an image with any dimensions. It will circle crop
 the image from the center with a diameter of the smallest dimension.
+
+Also check out `hex_crop` and `heart_crop`.

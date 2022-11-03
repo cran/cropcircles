@@ -1,6 +1,10 @@
-24108b198895114567a842878519fdf5 *DESCRIPTION
-dbc97ec74e1590a8ce730588dce4e9d2 *NAMESPACE
-328f8f6448fb490dbb766b39782ea566 *NEWS.md
-b16db1155e1e6dd3ef8ced3d0a343464 *R/circle-crop.R
-aebe12ea64a4f9e139cd4dab98377ef2 *README.md
-88749b39d481a52cec11d115625dd243 *man/circle_crop.Rd
+e255f0b4be39546950a8e35c26888f7f *DESCRIPTION
+92bcf05e9b8f9b2b105fece71bb32a2a *NAMESPACE
+23345ac74946d5020d42d8745c1f565b *NEWS.md
+a03bd299f98ab36a19f64df53447ead2 *R/crop.R
+be5e7b1f94eb4e5f5b9b49883ed2e87e *README.md
+cb8b3b4b2e253c8119fbb0b2fd36d1a9 *inst/masks/heart.png
+b60a75ef9e20487c5cc56ec3b12e1d33 *man/circle_crop.Rd
+7a97d16a5d8cd94f74eb41e67e98de7d *man/heart_crop.Rd
+efa314fe8154f384f30d0b3eaf44c2c8 *man/hex_crop.Rd
+c5a27390091fb482526b222db33647ae *man/square_crop.Rd

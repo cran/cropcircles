@@ -1,7 +1,7 @@
 Package: cropcircles
 Type: Package
 Title: Crops an Image to a Circle
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
   person(
     given = "Daniel",
@@ -20,8 +20,8 @@ License: CC0
 Encoding: UTF-8
 RoxygenNote: 7.2.0
 NeedsCompilation: no
-Packaged: 2022-09-13 12:48:22 UTC; Dan
+Packaged: 2022-11-03 10:41:56 UTC; Dan
 Author: Daniel Oehm [aut, cre]
 Maintainer: Daniel Oehm <danieloehm@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-09-14 05:30:10 UTC
+Date/Publication: 2022-11-03 11:00:02 UTC
