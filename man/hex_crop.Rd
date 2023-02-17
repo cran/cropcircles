@@ -4,13 +4,25 @@
 \alias{hex_crop}
 \title{Hex crop}
 \usage{
-hex_crop(images, to = NULL)
+hex_crop(
+  images,
+  to = NULL,
+  border_size = NULL,
+  border_colour = "black",
+  just = "center"
+)
 }
 \arguments{
 \item{images}{Vector of image paths, either local or urls. If urls the images
 will be downloaded first.}
 
 \item{to}{Path to new location}
+
+\item{border_size}{Border size in pixels.}
+
+\item{border_colour}{Border colour.}
+
+\item{just}{Where to justify image prior to cropping. Accepted values: `left`, `right`, `top`, `bottom`}
 }
 \value{
 Path to cropped images
