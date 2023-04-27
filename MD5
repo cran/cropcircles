@@ -1,9 +1,9 @@
-c816473b7f35e60c084a1f6cd7a8b3b7 *DESCRIPTION
+de4a9e88bb58fee1045e7f09d7390eec *DESCRIPTION
 bf938ae7a092ed72e9d2fe457a50ba86 *LICENSE
 bae0561dbd94462a21d1f3ac8730c6fb *NAMESPACE
-eecb820404b20206b8cb79623d59d197 *NEWS.md
+4c26b90789f028bb8ca2d9fad85c6f4a *NEWS.md
 24c39ef974bb36fd52e146471cf56ec1 *R/crop.R
-be67fa21180a6ff393698afc27116330 *R/helpers.R
+5e1f9ac7e1c8f12bf399ab4000e46189 *R/helpers.R
 66af05d7eaef778fdbf9fe68bed60037 *README.md
 41c8bef0582ea37258a2da391ee9f71f *inst/images/walter-jesse.png
 cb8b3b4b2e253c8119fbb0b2fd36d1a9 *inst/masks/heart.png
